@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 5, 102);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(9, 9, 76);
+            height: 70px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+        }
+
+        /*main*/
+        main {
+            height: 120vh;
+        }
+
+        .content {
+            border: 1px solid transparent;
+            border-radius: 20px;
+            background-color: #0040b7;
+            height: 108vh;
+            margin: 70px 285px;
+
+        }
+
+        .content .about {
+            display: flex;
+            flex-direction: column;
+            margin: 104px 65px;
+        }
+
+        .about h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .about h3 {
+            margin: 10px;
+        }
+
+        /* footer*/
+        footer {
+            background-color: #0e0e1a;
+            height: 300px;
+            padding: 23px 122px;
+        }
+
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            top: 45px;
+            left: 118px;
+        }
+
+        .footer div {
+            margin-right: 186px;
+        }
+
+        .footer .f1 div {
+            margin: 8px;
+            padding: 0px 15px;
+        }
+
+        .footer .f1 p {
+            margin-bottom: 5px;
+        }
+
+        .footer .f1 p a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .f1 h2 {
+            margin: 0px 38px;
+        }
+
+        .footer .f2 ul {
+            margin: 8px;
+            padding: 0px 26px;
+        }
+
+        .footer .f2 ul li:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        .footer .f3 ul {
+            margin: 8px;
+            padding: 0px 26px;
+            list-style: none;
+        }
+
+        .footer .f3 ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer .f3 ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer .f3 ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        .copyright {
+            text-align: center;
+            margin: 80px 0px;
+        }
+
+        .copyright p {
+            margin: 20px 0;
+        }
+
+        @media (max-width:600px) {
+
+            html,
+            body {
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+
+            nav {
+                margin-right: -40;
+                flex-wrap: wrap;
+                font-size: 3vw;
+            }
+
+            main {
+                height: 160vh;
+            }
+
+            .content {
+                height: 150vh;
+                margin: 60px 10vw;
+            }
+
+            .content .about {
+                font-size: 10px;
+            }
+
+
+
+
+            /*footer*/
+            footer {
+                height: 54vh;
+                font-size: 3vw;
+            }
+
+            .footer {
+                justify-content: center;
+
+            }
+
+            .head-footer h2 {
+                width: 280px;
+                margin-left: -45px;
+            }
+
+            .f1 p {
+                width: 200px;
+            }
+
+            .f1 {
+                margin-bottom: 20px;
+            }
+
+            .f2 {
+                margin-left: -70px;
+                margin-bottom: 20px;
+            }
+
+            .f3 {
+                margin-left: 170px;
+            }
+
+            .f3 ul {
+                width: 300px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">Dibyansu's Portfolio</div>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="about">
+                <h2>Services</h2>
+                <p>Welcome to my Services page! Here, you'll find a comprehensive list of the professional services I
+                    offer. Whether you're a startup, an established business, or an individual seeking expert
+                    assistance, I'm here to help you achieve your goals with innovative and effective solutions.</p>
+
+                <h3>Web Development</h3>
+                <ul>
+                    <li><strong>Responsive Web Design</strong> Creating visually appealing and user-friendly websites
+                        that look great on any device. From desktops to smartphones, I ensure your website provides a
+                        seamless experience for all users.</li>
+                    <li><strong>Custom Web Applications</strong> Developing tailored web applications to meet your
+                        specific needs. Whether it's an e-commerce platform, a content management system, or a bespoke
+                        solution, I bring your vision to life with clean, efficient code.</li>
+                    <li><strong>Performance Optimization</strong>Enhancing the speed and performance of your website to
+                        ensure quick load times and a smooth user experience. From optimizing images to fine-tuning
+                        server configurations, I ensure your site runs at its best.</li>
+
+                </ul>
+
+                <h3>Web Design</h3>
+                <ul>
+                    <li><strong>UI/UX Design</strong> Designing intuitive and engaging user interfaces that provide an
+                        exceptional user experience. I focus on creating designs that are not only beautiful but also
+                        functional and easy to navigate.
+                    </li>
+                    <li><strong>Branding and Visual Identity</strong> Creating a cohesive visual identity that
+                        represents your brand. From logos to color schemes, I help you establish a strong, memorable
+                        brand presence online.</li>
+                    <li><strong>Prototyping and Wireframing</strong> Building interactive prototypes and wireframes to
+                        visualize the structure and functionality of your website before development. This helps in
+                        refining ideas and ensuring the final product meets your expectations.</li>
+
+                </ul>
+
+                <h3>Data Analysis</h3>
+                <ul>
+                    <li><strong>Data Cleaning and Preparation</strong> Preparing your data for analysis by cleaning,
+                        organizing, and structuring it for optimal use. I ensure your data is ready for accurate and
+                        meaningful analysis.</li>
+                    <li><strong>Data Visualization</strong> Transforming complex data into clear, actionable insights
+                        through compelling visualizations. Using tools like Tableau and Power BI, I create dashboards
+                        and reports that help you make informed decisions.
+                    </li>
+                    <li><strong>Statistical Analysis and Modeling</strong> Applying statistical techniques and models to
+                        analyze data and uncover patterns, trends, and relationships. Whether it's for business
+                        intelligence, market research, or operational efficiency, I provide the insights you need.</li>
+
+                </ul>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="head-footer">
+            <h2>Dibyansu's Developer Portfolio</h2>
+        </div>
+        <div class="footer">
+            <div class="f1">
+                <h2 class="info">Contact Us:</h2>
+                <div>
+                    <p><a href="mailto:dibyansu.dev1@gmail.com"> Email: dibyansu.dev1@gmail.com </a></p>
+                    <p> Phone: +91 88995XXXXX</p>
+                </div>
+            </div>
+            <div class="f2">
+                <h2 class="info">Quick Links:</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>services</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="f3">
+                <h2 class="info">Connect With Us:</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/dibyansu-kumar-dubey/" target="_main"><i
+                                class="fa-brands fa-linkedin"></i> linkedin </a></li>
+                    <li><a href="https://github.com/Dibyansu-kumar-dubey" target="_main"><i
+                                class="fa-brands fa-square-github"></i> Github </a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <hr>
+            <p>&copy; 2024 Created By Dibyansu.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

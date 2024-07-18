@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 5, 102);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: rgb(9, 9, 76);
+            height: 70px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+        }
+
+        /*main*/
+        main {
+            height: 90vh;
+        }
+        .content{
+            border: 1px solid transparent;
+            border-radius: 20px;
+            background-color: rgb(5, 5, 160);
+            height: 80vh;   
+            margin: 70px 285px;
+
+
+        }
+        .content .about{
+            display: flex;
+            flex-direction: column;
+            margin: 104px 65px;
+        }
+        .about h2{
+            text-align: center;
+            margin-bottom:15px ;
+        }
+        .about h3{
+            margin: 10px;
+        }
+        /* footer*/
+        footer {
+            background-color: #0e0e1a;
+            height: 300px;
+            padding: 23px 122px;
+        }
+
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            top: 45px;
+            left: 118px;
+        }
+
+        .footer div {
+            margin-right: 186px;
+        }
+
+        .footer .f1 div {
+            margin: 8px;
+            padding: 0px 15px;
+        }
+
+        .footer .f1 p {
+            margin-bottom: 5px;
+        }
+
+        .footer .f1 p a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .f1 h2 {
+            margin: 0px 38px;
+        }
+
+        .footer .f2 ul {
+            margin: 8px;
+            padding: 0px 26px;
+        }
+
+        .footer .f2 ul li:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        .footer .f3 ul {
+            margin: 8px;
+            padding: 0px 26px;
+            list-style: none;
+        }
+
+        .footer .f3 ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer .f3 ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer .f3 ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        .copyright {
+            text-align: center;
+            margin: 80px 0px;
+        }
+
+        .copyright p {
+            margin: 20px 0;
+        }
+
+        @media (max-width:600px) {
+
+            html,body {
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+            nav {
+                margin-right: -40;
+                flex-wrap: wrap;
+                font-size: 3vw;
+            }
+
+            main{
+                height: 110vh;
+            }
+            .content{
+            height: 100vh;
+            margin: 60px 10vw;
+            }
+
+            .content .about{
+                font-size: 10px;
+            }
+            
+
+
+
+            /*footer*/
+            footer {
+                height: 54vh;
+                font-size: 3vw;
+            }
+
+            .footer {
+                justify-content: center;
+
+            }
+
+            .head-footer h2 {
+                width: 280px;
+                margin-left: -45px;
+            }
+
+            .f1 p {
+                width: 200px;
+            }
+
+            .f1 {
+                margin-bottom: 20px;
+            }
+
+            .f2 {
+                margin-left: -70px;
+                margin-bottom: 20px;
+            }
+
+            .f3 {
+                margin-left: 170px;
+            }
+
+            .f3 ul {
+                width: 300px;
+            }
+
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">Dibyansu's Portfolio</div>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="about">
+                <h2>Hello! I'm Dibyansu</h2>
+                <p>Welcome to my portfolio! I'm a dedicated professional with a passion for crafting seamless digital
+                    experiences. With a background in web development, web design, and data analysis I thrive on turning complex ideas into user-friendly solutions.</p>
+
+                <h3>What Drives Me:</h3>
+                <p>I believe in the power of technology to transform businesses and enrich lives. Whether it's building
+                    responsive websites that captivate audiences or diving into data to uncover actionable insights, I'm
+                    always eager to tackle new challenges and push the boundaries of what's possible.</p>
+
+                <h3>My Expertise:</h3>
+                <ul>
+                    <li><strong>Web Development:</strong> Proficient in HTML, CSS, JavaScript, and various frameworks
+                        like Tailwind and Bootstrap, I specialize in creating dynamic and scalable web applications tailored
+                        to meet client needs.</li>
+                    <li><strong>Web Design:</strong> A keen eye for aesthetics combined with a deep understanding of
+                        user experience (UX) design principles allows me to create visually stunning and intuitive
+                        interfaces.</li>
+                    <li><strong>Data Analysis:</strong> Experienced in extracting, cleaning, and analyzing data to
+                        derive meaningful conclusions that drive strategic business decisions.</li>
+                    
+                </ul>
+                <h3>Academic Journey</h3>
+                <p>I am currently in my 2nd year of BCA at United University, Prayagraj. My academic journey has provided me with a solid foundation in computer applications and practical experience through various projects and coursework. I am committed to continuous learning and staying up-to-date with the latest industry trends.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="head-footer">
+            <h2>Dibyansu's Developer Portfolio</h2>
+        </div>
+        <div class="footer">
+            <div class="f1">
+                <h2 class="info">Contact Us:</h2>
+                <div>
+                    <p><a href="mailto:dibyansu.dev1@gmail.com"> Email: dibyansu.dev1@gmail.com </a></p>
+                    <p> Phone: +91 88995XXXXX</p>
+                </div>
+            </div>
+            <div class="f2">
+                <h2 class="info">Quick Links:</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>services</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="f3">
+                <h2 class="info">Connect With Us:</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/dibyansu-kumar-dubey/" target="_main"><i
+                                class="fa-brands fa-linkedin"></i> linkedin </a></li>
+                    <li><a href="https://github.com/Dibyansu-kumar-dubey" target="_main"><i
+                                class="fa-brands fa-square-github"></i> Github </a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <hr>
+            <p>&copy; 2024 Created By Dibyansu.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
